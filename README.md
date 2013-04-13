@@ -6,7 +6,8 @@ Compressor takes is a c program that takes a text file as a commandline argument
 Decompressor is a c program (not written by me) that decompresses the compressed file Compressor created.
 
 To compress a file type ./compress textfile.txt | ./decompress
-to check if original and the new decompressed file are same: ./compress textfile.txt | ./decompress | diff - textfile.txt
+
+compare original and the new decompressed: ./compress textfile.txt | ./decompress | diff - textfile.txt
 
 also,
 
